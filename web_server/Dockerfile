@@ -1,6 +1,5 @@
-FROM ubuntu:16.04
-
-LABEL maintainer="Alankrit Srivastava <alankrit.srivastava256@webkul.com>"
+FROM ubuntu:19.04
+LABEL maintainer="Vladimir Chavkov <vchavkov@assistance.bg>"
 
 RUN apt-get update \
     && apt-get -y install apache2 nano mysql-client \

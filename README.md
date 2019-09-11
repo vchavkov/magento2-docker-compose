@@ -1,11 +1,10 @@
-### Setting Up Magento 2 on Multi-container Architecture Using Docker-Compose tool
+### Magento 2 multi-tier setup
 
 This repository corresponds to architecture setup as mentioned in blog https://cloudkul.com/blog/magento-2-docker-compose/.
 
-
 #### Docker-Compose Tool
 
-As mentioned in Docker docs, Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a Compose file to configure your application’s services. Then, using a single command, you create and start all the services from your configuration. 
+As mentioned in Docker docs, Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a Compose file to configure your application’s services. Then, using a single command, you create and start all the services from your configuration.
 
 With the help of docker-compose we can define containers to be built, their configuration, links, volumes, ports etc in a single file and it gets launched by a single command. We can add multiple servers and services just by adding them to docker-compose configuration file. This configuration file is in YAML format.
 
@@ -34,11 +33,11 @@ In this project, we are using:
 
 > PHP version: PHP-7.1
 
-To begin with, please install docker and docker-compose on your ubuntu 16.04 server. 
+To begin with, please install docker and docker-compose on your ubuntu 16.04 server.
 
 Then follow the following steps:
 
-1). Clone or download this repository as 
+1). Clone or download this repository as
 
 > git clone https://github.com/webkul/magento2-docker-compose.git
 
@@ -70,7 +69,7 @@ Then follow the following steps:
 
 > docker ps
 
-Now, your server setup is all ready, now hit your domain name or IP to install Magento 2. For more details, please refer to blog https://cloudkul.com/blog/magento-2-docker-compose/. 
+Now, your server setup is all ready, now hit your domain name or IP to install Magento 2. For more details, please refer to blog https://cloudkul.com/blog/magento-2-docker-compose/.
 
 #### GETTING SUPPORT
 
@@ -78,4 +77,3 @@ If you have any issues, contact us at support@webkul.com or raise ticket at http
 
 
 Thank you.
-

@@ -1,8 +1,7 @@
 version: '3'
 services:
-  web_server:
-    build:
-      context: ./web_server/
+  apache2:
+    image: mysql/mysql-server:5.7
     container_name: apache2
     volumes:
       - ./magento2:/var/www/html
